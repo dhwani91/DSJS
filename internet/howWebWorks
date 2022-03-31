@@ -1,0 +1,34 @@
+ How web Works
+
+ reference
+ https://www.youtube.com/watch?v=dh406O2v_1c
+ https://thealphaking.medium.com/how-web-works-14a0706a7485
+
+ www.google.com
+
+ 1) intial typing
+  typing url name to browser-- autocomplete check the browser history first or cache first.
+
+2) URL parsing
+when you enter the url hits the enter. it checks if it is url or search term?
+
+3) find protocol
+http- unencrypted port 8080 or https- encrypted port 443
+browser needs to find the protocol. previously by default it was http - which man in middle attack
+
+HSTS- http strict transport-security and esssential list of browser keeps cache of most famous webpages that force users to use https instead of http;
+then the port will be 443. if the url is not in the list then use http which means TCP  goes to 80 port.
+
+4)DNS lookup- domain name server
+need to know IP- intenet protocol address and mac address
+
+> browser check if it has ip for google.com in own cache.
+>  os checks ip address host file
+>DoH enable - DNS over https
+or DNS over TLS
+
+
+
+DNS UDP service listening 53 port
+
+

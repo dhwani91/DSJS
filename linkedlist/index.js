@@ -4,8 +4,7 @@ class Node {
         this.next= next;
     }
 }
-
-class LinkedList {
+ class LinkedList {
     constructor() {
         this.head =null;
         this.size = 0
@@ -128,3 +127,6 @@ ll.insertAt(500,12);
 ll.getAt(0);
 ll.removeAt(99);
 ll.printList();
+
+
+export new LinkedList();
